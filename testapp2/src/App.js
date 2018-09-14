@@ -7,6 +7,7 @@ import Photo from './photo';
 import Badges from './badges';
 import Progress from './progress';
 import Tables from './tables';
+import Fade from './fade';
 
 class App extends Component {
   render() {
@@ -25,6 +26,8 @@ class App extends Component {
         <Badges />
         <br></br><br></br><br></br>
         <Tables />
+        <br></br><br></br><br></br>
+        <Fade />
         <br></br><br></br><br></br>
         <Progress />
         <br></br><br></br><br></br>
